@@ -1,0 +1,9 @@
+{
+  "name": "GraphQL_prac_1",
+  "version": "1.0.0",
+  "description": "Movie API with GraphQL",
+  "main": "index.js",
+  "repository": "https://github.com/Covee/GraphQL_prac_1.git",
+  "author": "Cobee <uniqtop91@gmail.com>",
+  "license": "MIT"
+}
