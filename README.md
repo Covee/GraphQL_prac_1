@@ -7,7 +7,7 @@
 4. ```yarn add babel-node --dev``` 더 나은 코드 작성을 위한 babel-node 설치. 이 코드 안되면 5번 실행.
 5. ```yarn global add babel-cli``` or ```yarn global add babel-cli --ignore-engines``` 
 6. ```yarn add babel-cli babel-preset-env babel-preset-stage-3 --dev``` 추가 설치할 것들
-
+7. ```yarn start``` 서버 실행
 
 
 
@@ -17,7 +17,8 @@
 - under-fetching(REST에서 하나의 동작 실행을 완성하려고 많은 데이터 소스를 요청하는 경우) 또한 해결할 수 있다.
 - GraphQL에는 URL이 존재하지 않는다. 체계도 없다. 하나의 end-point만 있을 뿐.
 - GraphQL backend에 요청한 것에 따른 값들만 JS Object로 정확히 보내준다.
--
+- view, url 그런 것 없이 오로지 Query와 Resolver만 있다. 요청은 Query, 돌려줄 값은 Resolver(여기에는 어떤 코드라도 내가 원하는 대로 짜면 된다)
+- 
 
 
 ## Reference
