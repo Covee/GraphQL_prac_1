@@ -3,6 +3,11 @@
 ## Steps
 1. ```yarn init```
 2. ```yarn add graphql-yoga```
+3. ```yarn global add nodemon```
+4. ```yarn add babel-node --dev``` 더 나은 코드 작성을 위한 babel-node 설치. 이 코드 안되면 5번 실행.
+5. ```yarn global add babel-cli``` or ```yarn global add babel-cli --ignore-engines``` 
+6. ```yarn add babel-cli babel-preset-env babel-preset-stage-3 --dev``` 추가 설치할 것들
+
 
 
 
