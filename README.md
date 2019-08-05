@@ -1,9 +1,18 @@
 # GraphQL_prac_1
 
 ## Steps
-1. ```console $ yarn init```
-2. 
+1. ```yarn init```
+2. ```yarn add graphql-yoga```
+
+
 
 ## Description
-- graphql-yoga는 create-react-app처럼 GraphQL 프로젝트를 빠르게 시작할 수 있게 도와주는 것
+- graphql-yoga는 create-react-app처럼 GraphQL 프로젝트를 빠르게 시작할 수 있게 도와주는 것 (easy-setup)
+- graphql을 사용함으로써 over-fetching(사용할 데이터보다 더 많은 데이터를 DB에 요청하는 것)을 해결할 수 있다.
+- under-fetching(REST에서 하나의 동작 실행을 완성하려고 많은 데이터 소스를 요청하는 경우) 또한 해결할 수 있다.
+- GraphQL에는 URL이 존재하지 않는다. 체계도 없다. 하나의 end-point만 있을 뿐.
+- GraphQL backend에 요청한 것에 따른 값들만 JS Object로 정확히 보내준다.
 -
+
+
+## Reference

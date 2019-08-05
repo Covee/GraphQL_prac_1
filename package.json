@@ -5,5 +5,8 @@
   "main": "index.js",
   "repository": "https://github.com/Covee/GraphQL_prac_1.git",
   "author": "Cobee <uniqtop91@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "graphql-yoga": "^1.18.1"
+  }
 }
