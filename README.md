@@ -19,7 +19,7 @@
 - GraphQL backend에 요청한 것에 따른 값들만 JS Object로 정확히 보내준다.
 - view, url 그런 것 없이 오로지 Query와 Resolver만 있다. 요청은 Query, 돌려줄 값은 Resolver(여기에는 어떤 코드라도 내가 원하는 대로 짜면 된다)
 - (resolver, schema, db 의 연관 정의 값이 곧 GraphQL을 이룬다.)
-- 
+- Playground에서 정의한 db schema의 종류와 형태를 확인할 수 있다.
 
 
 ## Reference
